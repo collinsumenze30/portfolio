@@ -1,0 +1,324 @@
+body,*,*:before,*after{
+	box-sizing: border-box;
+}
+
+html body{
+
+	font-family: "helvetica neue" helvetica sans-serif;
+}
+
+body{
+	position: relative;
+	height: 900px;
+}
+
+
+.fixed-width{
+
+	width: 960px;
+	margin: 0px auto;
+
+}
+
+h1,h2,h3,h4,h5,h6 .title{
+
+	font-family: "economica" sans-serif;
+	text-transform: uppercase;
+	margin: 0px 1em;
+}
+
+a{
+	color: inherit;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+.page-header em:hover, em:visited, em:active{
+	color: blue;
+	text-decoration: none;
+
+}
+
+.page-header nav li strong{
+	color: blue;
+
+	display: block;
+	
+	font-size: 1em;
+	padding-top: 0.5em;
+	font-size: 1.5em;
+}
+
+
+.page-header nav{
+
+	font-family: "economica" sans-serif;
+	text-transform: uppercase;
+	float: right;
+	clear: both;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.page-header nav li{
+	float: left;
+	color: #bfbfbf;
+	margin-right: 2.5em;
+	padding-top: 3em;
+}
+
+.page-header nav li em{
+
+	display: block;
+	color: #474747;
+	font-size: 1em;
+	padding-top: 0.5em;
+	font-size: 1.5em;
+}
+
+
+
+
+
+.page-header nav li:last-child{
+	margin-right: 0em;
+}
+
+.page-header div{
+
+	position: relative;
+
+}
+
+.page-header:after{
+	content: "";
+	display: block;
+	height: 5px;
+	background-color: blue;
+margin-top: 1.5em;
+}
+
+.logo{
+
+	position: absolute;
+	bottom: 0px;
+	font-family: 'Pacifico', cursive;
+	font-size: 1.6em;
+}
+
+.page-footer{
+
+	background-color: #f4f4f4;
+	color: #9b9b9b;
+	font-size: 1rem;
+	height: 70px;
+}
+
+.footer{
+
+	padding: 1.5em 0px;
+}
+.copy-right{
+
+	float: left;
+	text-transform: capitalize;
+}
+.site{
+	float: right;
+	text-transform: capitalize;
+}
+
+.page-footer:before{
+	content: "";
+	display: block;
+	height: 5px;
+	background-color:  blue;
+}
+main{
+
+	margin-top: 3em auto;
+	
+	
+}
+
+.main-visual{
+
+	margin-top: 5em;
+}
+
+
+
+
+
+
+main > div{
+
+	margin: 5em auto;
+	
+background: #FDFDFD;
+
+
+	width: 50%;
+}
+main .email{
+	margin: 2em auto;
+
+}
+
+
+
+.email h2{
+	margin: 0.5em 0em;
+	font-family: "economica" sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+
+}
+
+.email a{
+
+	color: blue;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+
+/** address **/
+
+
+
+
+
+
+main .address{
+	margin: 2em auto;
+	
+}
+
+main #address{
+
+	font-weight: bold;
+	float: left;
+	width: 5%;
+	font-size: 2em;
+}
+
+.address h2{
+	margin: 0.5em 0em;
+	font-family: "economica" sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.address p{
+
+	color: blue;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.address h2{
+	margin: 0.5em 0em;
+	font-family: "economica" sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+#linkedin{
+	float: left;
+}
+#linkedin img{
+	width: 32px;
+	height: 32px;
+	margin-right: 2em;
+
+}
+
+.link a{
+	color: blue;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.link h2{
+	margin: 0.5em 0em;
+	font-family: "economica" sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.behance a{
+
+	color: blue;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+#behance{
+	float: left;
+}
+#behance img{
+	width: 32px;
+	height: 32px;
+	margin-right: 2em;
+
+}
+
+.behance h2{
+	margin: 0.5em 0em;
+	font-family: "economica" sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.email a{
+
+	color: blue;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+#email{
+	float: left;
+	wid
+}
+#email img{
+	width: 32px;
+	height: 32px;
+	margin-right: 2em;
+
+}
+
+
+#home{
+	float: left;
+}
+#home img{
+	width: 32px;
+	height: 32px;
+	margin-right: 2em;
+
+}
+
+
+
+
+.page-footer{
+	position: relative;
+	top: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+

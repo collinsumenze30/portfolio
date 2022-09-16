@@ -1,0 +1,320 @@
+body,*,*:before,*after{
+	box-sizing: border-box;
+}
+
+html body{
+
+	font-family: "helvetica neue" helvetica sans-serif;
+}
+
+body{
+	position: relative;
+	height: 900px;
+}
+
+
+.fixed-width{
+
+	width: 960px;
+	margin: 0px auto;
+
+}
+
+h1,h2,h3,h4,h5,h6 .title{
+
+	font-family: "economica" sans-serif;
+	text-transform: uppercase;
+	margin: 0px 1em;
+}
+
+a{
+	color: inherit;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+.page-header em:hover, em:visited, em:active{
+	color: blue;
+	text-decoration: none;
+
+}
+
+.page-header nav li strong{
+	color: blue;
+
+	display: block;
+	
+	font-size: 1em;
+	padding-top: 0.5em;
+	font-size: 1.5em;
+}
+
+
+.page-header nav{
+
+	font-family: "economica" sans-serif;
+	text-transform: uppercase;
+	float: right;
+	clear: both;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.page-header nav li{
+	float: left;
+	color: #bfbfbf;
+	margin-right: 2.5em;
+	padding-top: 3em;
+}
+
+.page-header nav li em{
+
+	display: block;
+	color: #474747;
+	font-size: 1em;
+	padding-top: 0.5em;
+	font-size: 1.5em;
+}
+
+
+
+
+
+.page-header nav li:last-child{
+	margin-right: 0em;
+}
+
+.page-header div{
+
+	position: relative;
+
+}
+
+.page-header:after{
+	content: "";
+	display: block;
+	height: 5px;
+	background-color: blue;
+margin-top: 1.5em;
+}
+
+.logo{
+
+	position: absolute;
+	bottom: 0px;
+	font-family: 'Pacifico', cursive;
+	font-size: 1.6em;
+}
+
+.page-footer{
+
+	background-color: #f4f4f4;
+	color: #9b9b9b;
+	font-size: 1rem;
+	height: 70px;
+}
+
+.footer{
+
+	padding: 1.5em 0px;
+}
+.copy-right{
+
+	float: left;
+	text-transform: capitalize;
+}
+.site{
+	float: right;
+	text-transform: capitalize;
+}
+
+.page-footer:before{
+	content: "";
+	display: block;
+	height: 5px;
+	background-color:  blue;
+}
+
+.collins{
+	width: 1000px;
+	margin: 0px auto;
+	
+}
+.main-visual{
+
+	position: relative;
+	top: 10%;
+}
+
+.collins main{
+
+	width: 100%;
+	
+	margin-right: 5%;
+
+
+
+}
+
+.collins main:last-child{
+	margin-right: 0px;
+}
+
+.collins h2{
+	margin-top: 1em;
+	text-transform: capitalize;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: "economica" sans-serif;
+	margin-bottom: 24px;
+}
+
+.collins p{
+
+	text-transform: inherit;
+	line-height: 1.8em;
+	text-indent: 2em;
+
+	font-size: 1.12em;
+	padding: 1em 0px;
+	
+
+}
+
+.main:after{
+	
+	content: "";
+	display: block;
+	height: 100px;
+	
+margin-top: 1.5em;
+}
+
+.main #submit{
+
+width: 120px;
+height: 56;
+	margin-top: 1em;
+color: white;
+font-size: 1em;
+border: 0px;
+
+background-color: black;
+padding: 1em;
+border-radius: 5px;
+text-transform: capitalize;
+font-weight: 400;
+font-family: "economica" sans-serif;
+float: right ;
+
+
+}
+
+#submit span{
+
+	
+}
+
+#submit:hover{
+	color: white;
+	background-color: blue;
+	border: 1px solid blue;
+
+}
+
+
+.page-footer{
+	position: relative;
+	top: 300px;
+}
+
+
+.main img{
+	margin-bottom: 24px;
+}
+
+.show{
+	width: 1000px;
+	border-radius: 5px;
+	margin: 24px auto;
+	height: 600px;
+	background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/2d0192148648673.62e699be7d552.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-height: 400%;
+	animation: img 40s ease-in-out 5s infinite alternate;
+
+}
+
+@keyframes img{
+	0%{background-image: url(../images/onboarding.png);}
+	20%{background-image: url(https://mir-cdn.behance.net/v1/rendition/project_modules/source/61d714148648673.62e6d63f5c03f.png);}
+40%{background-image: url(https://mir-cdn.behance.net/v1/rendition/project_modules/source/22f7e4148648673.62e6d6eb7b43a.png);}
+60%{background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/08fa48148648673.62e56bc498e57.png);}
+80%{background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/aa1e93148648673.62e56bc49a099.png);}
+100%{background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/2d0192148648673.62e699be7d552.png);}
+
+}
+
+.sho{
+	width: 1000px;
+	border-radius: 5px;
+	margin: 24px auto;
+	height: 600px;
+	background-image: url(../images/saferroutelogo.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-height: 400%;
+	animation: sho 40s ease-in-out 10s infinite alternate;
+
+}
+
+@keyframes sho{
+	0%{background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/526c30148523471.62d94970d6b16.png);}
+	20%{background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/546837148523471.62e6833c6eff0.png);}
+40%{background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/75b8f5148523471.62e7930b2c237.png);}
+60%{background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/c477c4148523471.62e68268184f5.png);}
+80%{background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/29a6ce148523471.62e6826817bd8.png);}
+100%{background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/a6631b148523471.62e684559b9ed.png);}
+
+}
+
+
+
+
+.sh{
+	width: 1000px;
+	border-radius: 5px;
+	margin: 24px auto;
+	height: 600px;
+	background-image: url(../images/shopmorelogo.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-height: 400%;
+	animation: sh 40s ease-in-out 10s infinite alternate;
+
+}
+
+@keyframes sh{
+	25%{background-image: url(../images/shopmore2.svg);}
+	50%{background-image: url(../images/shopmore3.svg);}
+	75%{background-image: url(../images/shopmore.png);}
+100%{background-image: url(../images/shopmore4.svg);}
+
+
+}
+
+
+
+
+
+
